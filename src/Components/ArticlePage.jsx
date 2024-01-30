@@ -1,5 +1,6 @@
 import React from 'react'
 import { Form } from 'react-router-dom'
+import Goal from './Goal'
 
 const ArticlePage = () => {
   return (
@@ -57,9 +58,12 @@ const ArticlePage = () => {
             </h1>
           </div>
         </div>
-
-
-        
+        <div className="w-full bg-cyan-200 flex justify-center items-center">
+          <div className="w-1/2 flex gap-x-[20px]">
+            <Goal />
+            <Goal />
+          </div>
+        </div>
       </article >
     </>
   )

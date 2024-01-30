@@ -43,8 +43,8 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="w-[90%] h-auto flex flex-wrap-reverse lg:flex-nowrap gap-x-[20px]">
-                    <div className="mt-[40px] lg:mt-[0px] lg:w-[60%] flex flex-col gap-y-[30px]">
+                <div className="w-[90%] h-screen flex flex-wrap-reverse lg:flex-nowrap gap-x-[20px] ">
+                    <div className="mt-[40px] lg:mt-[0px] lg:overflow-scroll lg:overflow-x-hidden lg:w-[60%] flex flex-col gap-y-[30px]">
                         <Articals />
                         <Articals />
                         <Articals />
@@ -56,7 +56,7 @@ const Home = () => {
                             <button type='button' className='border-[2px] border-black px-[16px] py-[8px] rounded-full '>Load more stories</button>
                         </div>
                     </div>
-                    <div className="mb-[20px] lg:w-[40%] lg:sticky lg:top-0 flex flex-col gap-y-[20px] lg:px-[40px]">
+                    <div className="mb-[20px] lg:w-[40%] lg:h-screen lg:sticky lg:top-0 flex flex-col gap-y-[20px] lg:px-[40px]">
                         <h1 className='text-[16px] font-[500]'>Discover more of what matters to you</h1>
                         <div className="flex justify-between gap-y-[10px] flex-wrap w-[100%] ">
                             <span className='py-[8px] px-[16px] text-[16px] font-[400] bg-slate-200 rounded-full '>Programming</span>
